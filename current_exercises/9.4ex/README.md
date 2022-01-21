@@ -205,3 +205,6 @@ node ('docker'){
 
 ![elk_04](pictures/elk_02.png)
 
+* Dashboard в Jenkins:
+
+![jenkinsfinal](pictures/22.png)
