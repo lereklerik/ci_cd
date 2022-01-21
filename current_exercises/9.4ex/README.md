@@ -116,13 +116,13 @@ pipeline {
 
 ![multibranch](pictures/13.png)
 
-![multiscan](pictires/12.png)
+![multiscan](pictures/12.png)
 
 * [Лог](logs/03.md) сканирования
 
-![multidashboard](pictires/14.png)
+![multidashboard](pictures/14.png)
 
-![multijenkins](pictires/15.png)
+![multijenkins](pictures/15.png)
 
 ![dashboard_03](pictures/16.png)
 
