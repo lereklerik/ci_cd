@@ -201,4 +201,4 @@ public class WelcomerTest {
 
 #### 18. Проверьте, что конфигурация в репозитории содержит все настройки конфигурации из teamcity
 
-* [`.teamcity](https://github.com/lereklerik/example-teamcity/tree/master/.teamcity) файлы в репозитории
+* [`.teamcity`](https://github.com/lereklerik/example-teamcity/tree/master/.teamcity) файлы в репозитории
