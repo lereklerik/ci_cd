@@ -1,0 +1,17 @@
+pipeline { 
+    agent {
+        label 'docker'
+    } 
+    stages {
+        stage('Structure of directories'){
+            steps {
+                sh 'ls -l \$PWD'
+            }
+        }
+        stage('Molecule test'){
+            steps {
+                sh 'cd playbook/roles/elasticsearch-role && molecule test'
+            }                        
+        }                
+    }
+}
