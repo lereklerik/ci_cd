@@ -2,7 +2,7 @@
 
 ---------------------------------------------------------
 
-* [`.teamcity](https://github.com/lereklerik/example-teamcity/tree/master/.teamcity) файлы в репозитории
+* [`.teamcity`](https://github.com/lereklerik/example-teamcity/tree/master/.teamcity) файлы в репозитории
 
 ---------------------------------------------------------
 
