@@ -166,7 +166,7 @@ netology@netology:~/Projects$ curl http://localhost:9092/kapacitor/v1/ping -v
 Для выполнения задания приведите скриншот с отображением метрик утилизации места на диске 
 (disk->host->telegraf_container_id) из веб-интерфейса.
 
-* Пришлось добавлять данные в конфигурацию:
+* Добавила данные в конфигурацию:
 ```shell
 [[inputs.disk]]
   ## By default stats will be gathered for all mount points.
@@ -182,7 +182,7 @@ netology@netology:~/Projects$ curl http://localhost:9092/kapacitor/v1/ping -v
 
 ## 5. Изучите список [telegraf inputs](https://github.com/influxdata/telegraf/tree/master/plugins/inputs). Добавьте в конфигурацию telegraf следующий плагин - [docker](https://github.com/influxdata/telegraf/tree/master/plugins/inputs/docker)
 
-* Пришлось скорректировать `docker-compose.yml` в части `telegraf` следующим образом:
+* Скорректировала `docker-compose.yml` в части `telegraf` следующим образом:
 
 ```yaml
   telegraf:
