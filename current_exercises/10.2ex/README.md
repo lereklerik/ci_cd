@@ -149,9 +149,9 @@ netology@netology:~/Projects$ curl http://localhost:9092/kapacitor/v1/ping -v
 
 ```
 
-![01](01.png)
+![01](pictures/01.png)
 
-![02](02.png)
+![02](pictures/02.png)
 
 ---------------------------------------------------------------------------------------------------------------------------
 
@@ -176,7 +176,7 @@ netology@netology:~/Projects$ curl http://localhost:9092/kapacitor/v1/ping -v
   ## Ignore mount points by filesystem type.
   ignore_fs = ["tmpfs", "devtmpfs", "devfs", "iso9660", "overlay", "aufs", "squashfs"]
 ```
-![03](03.png)
+![03](pictures/03.png)
 
 ------------------------------------------------------------------------------------------------------
 
@@ -286,6 +286,6 @@ netology@netology:~/Projects$ curl http://localhost:9092/kapacitor/v1/ping -v
 # [[inputs.net]]
   # interfaces = ["eth0"]
 ```
-![04](04.png)
+![04](pictures/04.png)
 
-![05](05.png)
+![05](pictures/05.png)
