@@ -180,12 +180,7 @@ netology@netology:~/Projects$ curl http://localhost:9092/kapacitor/v1/ping -v
 
 ------------------------------------------------------------------------------------------------------
 
-## 5. Изучите список [telegraf inputs](https://github.com/influxdata/telegraf/tree/master/plugins/inputs). 
-Добавьте в конфигурацию telegraf следующий плагин - [docker](https://github.com/influxdata/telegraf/tree/master/plugins/inputs/docker):
-```shell
-[[inputs.docker]]
-  endpoint = "unix:///var/run/docker.sock"
-```
+## 5. Изучите список [telegraf inputs](https://github.com/influxdata/telegraf/tree/master/plugins/inputs). Добавьте в конфигурацию telegraf следующий плагин - [docker](https://github.com/influxdata/telegraf/tree/master/plugins/inputs/docker)
 
 * Пришлось скорректировать `docker-compose.yml` в части `telegraf` следующим образом:
 
